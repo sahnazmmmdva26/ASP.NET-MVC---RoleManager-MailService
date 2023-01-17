@@ -1,0 +1,20 @@
+﻿@model Brand
+<div class="container" >
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Brand</h4>
+                  <p class="card-description">
+                    Create Brand
+                  </p>
+                  <form class="forms-sample" method="post">
+                    <div class="form-group">
+                      <label asp-for="Image"></label>
+                      <input asp-for="Image" class="form-control">
+                    </div>
+                    <button type="submit" class="btn btn-primary me-2">Submit</button>
+                    <button class="btn btn-light" asp-action="Index">Cancel</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+
